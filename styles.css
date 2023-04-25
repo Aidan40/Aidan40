@@ -1,0 +1,180 @@
+.bozo {
+  background: linear-gradient(90deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+  height: 115px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+
+}
+
+.bozo img {
+  float: right;
+  width: 20px;
+  height: auto;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill);
+  background-color: #151517;
+  width: 410px;
+  border-radius: 5px;
+  padding-bottom: 35px;
+  position: relative;
+}
+
+.logo1 {
+  margin: 30px;
+  width: 34px;
+}
+
+img {
+  width: 20px;
+  height: auto;
+
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: none;
+  height: 37px;
+  width: 300px;
+  margin: 0 auto;
+  background-color: lightblue;
+  transition: transform 0.3s ease-out;
+
+}
+
+h1,
+h3 {
+  margin-left: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+
+}
+
+p {
+  font-size: 12px;
+  margin-left: 50px;
+  margin-bottom: 2px;
+}
+
+input {
+  width: 200px;
+  /* Set a fixed width */
+  margin: 0 auto;
+  /* Center the input element */
+  padding: 10px;
+  /* Add some padding */
+  text-align: center;
+  /* Center the placeholder text */
+  margin-left: 50px;
+  border-radius: 5px;
+  color:white;
+  height: 15px;
+  background-color: #1d1d20;
+  border: 1px solid transparent; /* Set the initial border to transparent */
+  transition: border 0.3s ease-out; /* Add a transition effect with ease-out */
+}
+
+input::placeholder {
+  text-align: center;
+  /* Center the placeholder text */
+  font-weight: 500;
+}
+
+input[type="text"] {
+  width: 300px;
+}
+
+a {
+  text-decoration: none;
+  margin: 50px;
+  color: grey;
+}
+
+.welcome {
+  color: #5a7ef6;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.loginto {
+  color: rgb(236, 69, 69);
+}
+
+.draftaio {
+  color: white;
+  letter-spacing: 10px;
+}
+
+.licensekey {
+  color: white
+}
+
+.footer {
+  font-size: 12px;
+  text-align: center;
+  /* Center the placeholder text */
+}
+
+input:hover {
+  border: 1px solid white;
+  /* Add a 1px solid white border */
+  transition: border 0.3s ease-in-out;
+  /* Add a transition effect with ease-in and ease-out */
+}
+
+button:hover {
+  transform: scale(1.03);
+  /* Increase the size by 10% */
+  transition: transform 0.3s ease;
+  /* Add a transition effect with ease */
+  cursor:pointer;
+}
+
+
+
+
+
+
+#authenticate {
+  background-color: lightblue;
+  transition: background-color 0.5s;
+}
+.sss{
+  cursor:pointer;
+}
